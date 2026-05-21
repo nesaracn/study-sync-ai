@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySyncs AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Study Syncs AI</h2>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="Home">
+        <h1>Study Smarter <br> With AI</h1>
+        <p>
+            Your personal AI learning assistant for notes,
+            summaries, flashcards and productivity.
+        </p>
+
+        <div class="ai-container">
+            <div class="mode-indicator">
+                Current Mode: <span id="currentModeText">✨ AI Notes & Summary</span>
+            </div>
+
+            <div class="input-section">
+                <textarea id="noteInput" placeholder="Paste your study notes or textbook paragraphs here..."></textarea>
+            </div>
+
+            <div class="button-section">
+                <button id="summarizeBtn">Generate AI Summary</button>
+            </div>
+
+            <div id="resultBox" class="result-section" style="display: none;">
+                <h3 id="resultHeading">✨ StudySyncs AI Summary</h3>
+                <p id="aiOutputText">Your summary will appear here...</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="card" id="cardNotes" style="cursor: pointer;">
+            <h2>AI Notes</h2>
+            <p>Create smart notes instantly.</p>
+        </div>
+        <div class="card" id="cardFlashcards" style="cursor: pointer;">
+            <h2>Flashcards</h2>
+            <p>Quick revision tools for exams.</p>
+        </div>
+        <div class="card" id="cardTimer" style="cursor: pointer;">
+            <h2>Study Timer</h2>
+            <p>Boost productivity and focus.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About StudySyncs AI</h1>
+        <p>
+            StudySyncs AI helps students learn faster using
+            AI-powered study tools and smart productivity features.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 StudySyncs AI | Hackathon Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
