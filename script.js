@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Track active application state safely
     let currentMode = "notes"; 
-
+//hai
     // Pure dynamic mode state switcher
     function switchMode(modeType, displayName, placeholderText, buttonText) {
         currentMode = modeType;
